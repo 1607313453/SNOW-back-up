@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fbd7aced97962110cc7dbfb6f053af89" label="Platform variable type" max_length="40" name="x_969704_g_demo_platform_variable_type" type="collection">
+        <element label="Audio" max_length="40" name="u_audio_1" type="audio"/>
+        <element label="True/False" max_length="40" name="u_boolean_33" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choice" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="FX Currency" max_length="32" name="u_currency2_14" type="currency2"/>
+        <element attributes="omit_sys_original=true" label="Currency" max_length="20" name="u_currency_4" type="currency"/>
+        <element label="Data Structure" max_length="800" name="u_data_structure_5" type="data_structure"/>
+        <element label="Decimal" max_length="15" name="u_decimal_8" type="decimal"/>
+        <element label="Due Date" max_length="40" name="u_due_date_9" type="due_date"/>
+        <element label="Field Name" max_length="80" name="u_field_name_11" type="field_name"/>
+        <element label="File Attachment" max_length="40" name="u_file_attachment_12" type="file_attachment"/>
+        <element label="Floating Point Number" max_length="40" name="u_float_13" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_glide_date_6" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="u_glide_date_time_7" type="glide_date_time"/>
+        <element label="Duration" max_length="40" name="u_glide_duration_10" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="List" max_length="1024" name="u_glide_list_22" type="glide_list"/>
+        <element label="Time" max_length="40" name="u_glide_time_31" type="glide_time"/>
+        <element label="UTC Time" max_length="40" name="u_glide_utc_time_35" type="glide_utc_time"/>
+        <element label="HTML" max_length="65536" name="u_html_15" type="html"/>
+        <element label="Icon" max_length="100" name="u_icon_16" type="icon"/>
+        <element label="Insert Timestamp" max_length="40" name="u_insert_timestamp_17" type="insert_timestamp"/>
+        <element label="Integer" max_length="40" name="u_integer_18" type="integer"/>
+        <element label="IP Address (Validated IPV4, IPV6)" max_length="40" name="u_ip_addr_19" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" label="Journal" max_length="4000" name="u_journal_20" type="journal"/>
+        <element label="Language" max_length="40" name="u_language_21" type="language"/>
+        <element label="Long" max_length="40" name="u_longint_23" type="longint"/>
+        <element label="NDS Icon" max_length="40" name="u_nds_icon_25" type="nds_icon"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price_26" type="price"/>
+        <element attributes="encode_utf8=false" label="Reference" max_length="32" name="u_reference_27" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="Name-Value Pairs" max_length="4000" name="u_simple_name_values_24" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="String" max_length="40" name="u_string_28" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="String (Full UTF-8)" max_length="255" name="u_string_full_utf8_29" type="string_full_utf8"/>
+        <element attributes="base_start=true" label="Table Name" max_length="80" name="u_table_name_30" type="table_name"/>
+        <element label="Translated Text" max_length="40" name="u_translated_text_32" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="URL" max_length="1024" name="u_url_34" type="url"/>
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="Wiki" max_length="65536" name="u_wiki_text_37" type="wiki_text"/>
+        <index name="index">
+            <element name="u_currency2_14"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_27"/>
+        </index>
+    </element>
+</database>
