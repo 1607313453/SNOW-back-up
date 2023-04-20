@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab5c9929975a2110cc7dbfb6f053af3f" extends="task" label="CBA Tasks" max_length="40" name="x_969704_g_demo_cba_tasks" type="collection"/>
+</database>

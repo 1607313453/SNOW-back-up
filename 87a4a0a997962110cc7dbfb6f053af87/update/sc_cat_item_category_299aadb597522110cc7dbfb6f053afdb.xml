@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="China Bound Application">1db9ad6d979a2110cc7dbfb6f053af4f</sc_cat_item>
+        <sc_category display_value="CBA">c3d76df197522110cc7dbfb6f053af3b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 02:41:42</sys_created_on>
+        <sys_id>299aadb597522110cc7dbfb6f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CBA.China Bound Application</sys_name>
+        <sys_package display_value="General Demo" source="x_969704_g_demo">87a4a0a997962110cc7dbfb6f053af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="General Demo">87a4a0a997962110cc7dbfb6f053af87</sys_scope>
+        <sys_update_name>sc_cat_item_category_299aadb597522110cc7dbfb6f053afdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 02:41:42</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

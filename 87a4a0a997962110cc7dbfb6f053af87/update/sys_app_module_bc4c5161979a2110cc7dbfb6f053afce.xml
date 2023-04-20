@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="CBA Cases">f44c5161979a2110cc7dbfb6f053afcb</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>CBA Cases</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_969704_g_demo_cba_cases</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_969704_g_demo.cba_cases_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 07:00:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc4c5161979a2110cc7dbfb6f053afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CBA Cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="General Demo" source="x_969704_g_demo">87a4a0a997962110cc7dbfb6f053af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="General Demo">87a4a0a997962110cc7dbfb6f053af87</sys_scope>
+        <sys_update_name>sys_app_module_bc4c5161979a2110cc7dbfb6f053afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 07:00:38</sys_updated_on>
+        <timeline_page/>
+        <title>CBA Cases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

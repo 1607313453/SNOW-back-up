@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fbd7aced97962110cc7dbfb6f053af89" label="Platform variable type" max_length="40" name="x_969704_g_demo_platform_variable_type" type="collection">
+    <element audit="true" db_object_id="fbd7aced97962110cc7dbfb6f053af89" label="Platform variable type" max_length="40" name="x_969704_g_demo_platform_variable_type" type="collection">
         <element label="Audio" max_length="40" name="u_audio_1" type="audio"/>
         <element label="True/False" max_length="40" name="u_boolean_33" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
