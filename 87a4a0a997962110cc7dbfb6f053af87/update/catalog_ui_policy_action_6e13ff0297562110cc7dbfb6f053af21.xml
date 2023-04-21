@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="China Bound Application">1db9ad6d979a2110cc7dbfb6f053af4f</catalog_item>
+        <catalog_variable>IO:6b83d63d97d22110cc7dbfb6f053af01</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>50</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-21 07:16:38</sys_created_on>
+        <sys_id>6e13ff0297562110cc7dbfb6f053af21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>citi</sys_name>
+        <sys_package display_value="General Demo" source="x_969704_g_demo">87a4a0a997962110cc7dbfb6f053af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="General Demo">87a4a0a997962110cc7dbfb6f053af87</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6e13ff0297562110cc7dbfb6f053af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 07:16:38</sys_updated_on>
+        <table/>
+        <ui_policy display_value="issuing  bank - 1">3432b30297562110cc7dbfb6f053afb9</ui_policy>
+        <variable>citi</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>
