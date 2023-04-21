@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_969704_g_demo.getUserInformations</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Get user informations from sys_user table.(return informations are  more than needed)</description>
+        <name>getUserInformations</name>
+        <script><![CDATA[var getUserInformations = Class.create();
+getUserInformations.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    baseUserInfos: function() {
+        var userName = this.getParameter("sysparm_user_name");
+        var grUser = new GlideRecord('sys_user');
+        grUser.addQuery('sys_id', userName);
+        grUser.query();
+
+        var arrResult = {};
+        while (grUser.next()) {
+            arrResult.submitter_email = grUser.email.toString();
+            arrResult.submitter_contract = grUser.phone.toString();
+        }
+		
+        return JSON.stringify(arrResult);
+    },
+
+    type: 'getUserInformations'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 07:59:10</sys_created_on>
+        <sys_id>c5b17eb997562110cc7dbfb6f053af8b</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>getUserInformations</sys_name>
+        <sys_package display_value="General Demo" source="x_969704_g_demo">87a4a0a997962110cc7dbfb6f053af87</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="General Demo">87a4a0a997962110cc7dbfb6f053af87</sys_scope>
+        <sys_update_name>sys_script_include_c5b17eb997562110cc7dbfb6f053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 07:05:55</sys_updated_on>
+    </sys_script_include>
+</record_update>
