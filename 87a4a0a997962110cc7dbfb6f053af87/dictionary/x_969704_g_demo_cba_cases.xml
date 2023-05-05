@@ -6,7 +6,7 @@
             <choice/>
         </element>
         <element label="CBA Stage" max_length="80" name="cba_stage" type="workflow"/>
-        <element choice="1" label="CBA Status" max_length="40" name="cba_status" type="choice">
+        <element choice="1" default="submit" label="CBA Status" max_length="40" name="cba_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Submit" sequence="10" value="submit"/>
                 <element inactive_on_update="false" label="HOTA" sequence="20" value="hota"/>
