@@ -17,16 +17,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-05 06:11:55</sys_created_on>
+            <sys_created_on>2023-05-05 06:53:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0f8a632697262110cc7dbfb6f053af64</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>2424bf6e97262110cc7dbfb6f053af32</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_969704_g_demo_cba_cases" name="x_969704_g_demo_cba_cases" sys_domain="global" view="Default view">038a632697262110cc7dbfb6f053af61</sys_ui_form>
-            <sys_ui_section caption="Information" display_value="Information" name="x_969704_g_demo_cba_cases" sys_domain="global" view="Default view">7f09832697a22110cc7dbfb6f053aff8</sys_ui_section>
+            <sys_ui_section caption="Request details" display_value="Request details" name="x_969704_g_demo_cba_cases" sys_domain="global" view="Default view">a024bf6e97262110cc7dbfb6f053af2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-05 06:11:55</sys_updated_on>
+            <sys_updated_on>2023-05-05 06:54:41</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_969704_g_demo_cba_cases</name>
